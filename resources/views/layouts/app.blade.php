@@ -17,23 +17,23 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
+
+<style>
+    .card{
+        box-shadow: 14px 12px 13px #000;
+    }
+</style>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                <g clip-path="url(#clip0)" fill="#EF3B2D">
-                    <img src="https://nqedfr.blogspot.com/2022/11/prueba.html"
-                                l 80,80
-                                v -80
-                                h -40"/>
-                </g>
-                </svg>
+                
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHzgzjIBVIRuO0vCqYFzXa_V450myKYQHzJ5HtpFgrCfcQ5N3Wm0o1I17XgYfCMo07u4Ec8TLaJT5A3WEKYyw7fyY9LmY2kmJMPm45fs19EvPDvobL2ThaNzE5Qo6HQY6rzGyjfKCh77dsBsp1irQZocqLJ2raRyFn8Wbf5s1O-P3g6VoU6iRRR5YI/s500/Dise%C3%B1o_sin_t%C3%ADtulo-removebg-preview.png" width="90" height="90">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+            
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
